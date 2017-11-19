@@ -1,5 +1,5 @@
 <?php
-include_once('vue/head.html');
+include_once('../vue/head.html');
 @$appellation=$_POST['appellation'];
 
 
@@ -24,33 +24,31 @@ include_once('vue/head.html');
 
 
 <?php
-if(@$appellation )
+if( @$appellation )
 {
     echo @$appellation.'<hr />' ;// EFFACE-MOI
     
-    if(is_dir($appellation))
+    //
+    //  Teste si le fichier que l'on veut crée existe dejà
+    //
+    if(is_dir("../users/$appellation"))
     {
         echo 'ERREUR '.$appellation.'  EXISTE DEJA ! ';
         
     }
+    //
+    // Si non le fichier est crée par une initialisation avec --bare + clonage 
+    //
     else{
+            $destination=init($appellation);//M'as fonction d'initialisation
         
-        $destination="users/bleurg/$appellation";
-        echo '<hr />'.$destination.'<hr />';
-        exec("git init --bare users/bleurg/$appellation") ;
+        echo '<hr />$quoi ? '.$destination ;// Efface-moi
         
-        exit();
-        $dossier=opendir("$appellation");
-
-        $i=0;
-            while(($entree= readdir($dossier)) != false )
-            {
-                echo "<br />".$i." => ".$entree;// EFFACE-MOI
-                $i++;
-            }
-        closedir($dossier) ;
         
-        echo "<hr />L'initialisation est un succées , pour l'activer veuillez cliquer <a href='clone.php?appellation=$appellation'>ici</a>";
+        gitClone($appellation);// M'as fonction de clone 
+        
+        
+        echo "<hr />L'initialisation est un succées , pour le consulter veuillez cliquer <a href='../index.php'>ici</a>";
     }
 }
 ?>

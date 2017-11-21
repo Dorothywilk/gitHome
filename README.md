@@ -1,2 +1,2 @@
 # gitHome
-Un bureau virtuel a distance , sauvgardant CHAQUE modification
+Un bureau virtuel a distance , sauvegardant CHAQUE modification

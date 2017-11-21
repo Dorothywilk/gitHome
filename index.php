@@ -8,6 +8,7 @@
 
 <body>
   <h1>Bienvenue !!!</h1>
+  <a href="_Page_Vierge2.html">Tuto OCR</a>
 </body>
 
 </html>

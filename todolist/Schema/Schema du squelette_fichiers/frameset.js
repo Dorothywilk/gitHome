@@ -11,7 +11,7 @@ if(indexOfMSIE != -1)
 var isMac = (navigator.appVersion.indexOf("Macintosh") >= 0);
 var isUpLevel = (MSIE && ver >= 5 && !isMac);
 
-var xmlData = XMLData("Shema%20du%20squelette_fichiers/data.xml");
+var xmlData = XMLData("Schema%20du%20squelette_fichiers/data.xml");
 
 var g_RowStyleList = new  Array(
  "propViewerEvenRow",

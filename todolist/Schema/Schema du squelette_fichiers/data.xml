@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Page 1" NameU="Page-1">
+			<Layer IX="0">
+				<Name>Éléments de carte de site Web</Name>
+				<NameUniv>Web Site Map Shapes</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="1">
+				<Name>Lien</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="2">
+				<Name>Éléments de conception de site Web</Name>
+				<NameUniv>Conceptual Web Site Shapes</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{C0778213-FFFA-4065-9FBA-27234D9AE107}" Name="Accueil" NameU="Home" Master="0">
+					<XForm>
+						<PinX Unit="MM">0.787401574803150</PinX>
+						<PinY Unit="MM">10.946074922452880</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{41880654-175A-4606-9E79-9E8418433873}" Name="Connexion unidirectionnelle" NameU="1-Way data connection" Master="5">
+					<XForm>
+						<PinX Unit="MM">2.483451747452718</PinX>
+						<PinY Unit="MM">10.669291338582678</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{B0358DDC-5FE3-4201-88A0-0D3AA43E9D99}" Name="Groupe de pages" NameU="Page group" Master="7">
+					<Text>Connection</Text>
+					<XForm>
+						<PinX Unit="MM">4.133858267716535</PinX>
+						<PinY Unit="MM">10.708661417322839</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{D0ED15BA-0E18-4095-ABF7-075F1E3E5EA5}" Name="Groupe de pages.10" NameU="Page group.10" Master="7">
+					<Text>Création de compte</Text>
+					<XForm>
+						<PinX Unit="MM">6.669109633456200</PinX>
+						<PinY Unit="MM">9.685039370078734</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{FA7C3EBA-C646-4E40-96C9-F9D6A43BC419}" Name="Connexion unidirectionnelle.13" NameU="1-Way data connection.13" Master="5">
+					<Text>Si pas
+De
+Fichiers existant</Text>
+					<XForm>
+						<PinX Unit="MM">5.401483950586368</PinX>
+						<PinY Unit="MM">10.196850393700787</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{24A4A842-05C9-4745-A0BA-9548D559B0DE}" Name="Groupe de pages.14" NameU="Page group.14" Master="7">
+					<Text>Consultation
+De
+Fichier</Text>
+					<XForm>
+						<PinX Unit="MM">2.125984251968511</PinX>
+						<PinY Unit="MM">8.779527559055113</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{C7E5CE9A-E91E-4D0F-9868-69452C7E73EF}" Name="Connexion unidirectionnelle.17" NameU="1-Way data connection.17" Master="5">
+					<Text>Si les
+Fichiers 
+existe</Text>
+					<XForm>
+						<PinX Unit="MM">3.129921259842523</PinX>
+						<PinY Unit="MM">9.783464566929133</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="18" UniqueID="{CFB4A01F-FF3A-46CC-BFBD-4E68A47A7678}" Name="Lien droit / courbé" NameU="Line-curve connector" Master="3">
+					<Text>Une fois les fichier crées</Text>
+					<XForm>
+						<PinX Unit="MM">4.306904909046752</PinX>
+						<PinY Unit="MM">9.232283464566923</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="19" UniqueID="{181B76EA-4692-43A9-B548-19E16AD57EF9}" Name="Passerelle" NameU="Gateway" Master="12">
+					<Text>Ajout de texte
+/
+Supression
+/
+Modification 
+d’un fichier</Text>
+					<XForm>
+						<PinX Unit="MM">2.401574803149610</PinX>
+						<PinY Unit="MM">7.381889763779527</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>2</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Description" NameU="Description">
+						<Value></Value>
+						<Label>Description</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="20" UniqueID="{AECC9555-78E0-4E1E-9F1A-A6B7B3DCA978}" Name="Grand noeud de carte de site" NameU="Large site map node" Master="10">
+					<Text>Sauvegarde 
+Du fichier 
++
+commit</Text>
+					<XForm>
+						<PinX Unit="MM">2.677165354330708</PinX>
+						<PinY Unit="MM">5.708661417322834</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{39A2B081-F2E0-4D25-8F5C-174FBB430922}" Name="Lien droit / courbé.21" NameU="Line-curve connector.21" Master="3">
+					<Text>Retour 
+A la
+Consultation 
+De
+fichiers</Text>
+					<XForm>
+						<PinX Unit="MM">2.716535433070866</PinX>
+						<PinY Unit="MM">6.948818897637793</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

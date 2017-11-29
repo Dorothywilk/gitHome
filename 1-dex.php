@@ -12,3 +12,10 @@
 </body>
 
 </html>
+
+<?php
+
+include("controleur/selection.php");
+
+
+?>
